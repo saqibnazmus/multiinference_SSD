@@ -1,6 +1,6 @@
 # Noise-Aware Multi-inference Self-regulation for Self-supervised Denoising
 
-> **📄 [PAKDD 2026](https://pakdd2026.org/)** — Pacific-Asia Conference on Knowledge Discovery and Data Mining
+> **📄 [PAKDD 2026](https://pakdd2026.org/)** 
 
 *Official PyTorch implementation*
 
