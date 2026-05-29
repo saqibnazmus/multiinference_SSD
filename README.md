@@ -2,10 +2,6 @@
 
 > **📄 [PAKDD 2026](https://pakdd2026.org/)** 
 
-*Official PyTorch implementation*
-
-**Authors:** Nazmus Saqib, Yeochan Yoon, Jaechoon Jo, Joon-Min Gil
-
 ---
 
 ## Abstract
