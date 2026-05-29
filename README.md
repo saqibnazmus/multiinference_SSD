@@ -6,11 +6,8 @@
 
 ## Abstract
 
-In real-world scenarios, the scarcity of clean visual signals poses a significant challenge for real-time computer vision applications. This problem is further compounded by complex noise distributions that lack ground truth labels and exhibit unpredictable instrumental characteristics. Adapting to these intricate distributions without clean supervision remains a formidable task. While contemporary self-supervised denoising methods attempt to address this, they often lack adaptability and suffer from inadequate reconstruction and spatial information loss.
+In real-world scenarios, the scarcity of clean visual signals poses a significant challenge for real-time computer vision applications. This problem is further compounded by complex noise distributions that lack ground truth labels and exhibit unpredictable instrumental characteristics. Adapting to these intricate distributions without clean supervision remains a formidable task. While contemporary self-supervised denoising methods attempt to address this, they often lack adaptability and suffer from inadequate reconstruction and spatial information loss. To overcome these limitations, we propose a two-fold solution: (i) a novel data augmentation technique utilizing **Tweedie's formula** to broaden the model's robustness across diverse noise scenarios, and (ii) a **Recursive Multi-Inference Strategy (RMIS)** that minimizes denoising risk through a self-regulated process. Based on the assumption that noisy observations reside within an acceptable L2 radius of the latent ground truth, our approach effectively handles both signal-dependent and signal-independent noise, achieving competitive performance.
 
-To overcome these limitations, we propose a two-fold solution: (i) a novel data augmentation technique utilizing **Tweedie's formula** to broaden the model's robustness across diverse noise scenarios, and (ii) a **Recursive Multi-Inference Strategy (RMIS)** that minimizes denoising risk through a self-regulated process. Based on the assumption that noisy observations reside within an acceptable L2 radius of the latent ground truth, our approach effectively handles both signal-dependent and signal-independent noise, achieving competitive performance.
-
-**Keywords:** Image Denoising · Self-supervised · Tweedie distribution
 
 ---
 
