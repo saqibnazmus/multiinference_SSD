@@ -24,7 +24,6 @@ opt = parser.parse_args()
 
 
 
-
 if __name__ == "__main__":
     dataset_test = DataLoader_test(opt.root_dir)
     testloader = DataLoader(dataset = dataset_test, 
