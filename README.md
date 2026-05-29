@@ -1,6 +1,6 @@
 # Noise-Aware Multi-inference Self-regulation for Self-supervised Denoising
 
-*PyTorch implementation — PAKDD Camera Ready*
+*PAKDD 2026*
 
 ## Abstract
 
