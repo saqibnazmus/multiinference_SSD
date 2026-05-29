@@ -38,7 +38,6 @@ if __name__ == "__main__":
 
 
     
-    
     print('Loading model .......\n')
     model =  DnCNN(channels=3, num_of_layers=opt.num_of_layers)
     model.load_state_dict(torch.load(os.path.join(opt.logdir, 'model.pth')))
